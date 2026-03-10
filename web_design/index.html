@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>徐嘉琳的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 顶部导航（带交互） -->
+    <nav class="top-nav">
+        <span class="logo">徐嘉琳</span>
+        <div class="nav-links">
+            <a href="index.html">首页</a>
+            <a href="hobby.html">我的爱好</a>
+            <a href="album.html">我的相册</a>
+            <a href="hometown.html">我的家乡</a>
+            <a href="school.html">我的学校</a>
+            <a href="contact.html">联系我</a>
+        </div>
+    </nav>
+
+    <!-- 首屏介绍 -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>你好，我是嘉琳</h1>
+            <p class="subtitle">上海大学金融专业大三学生</p>
+            <p class="intro">热爱生活，喜欢尝试新鲜事物。在学习的同时，也在探索自己的兴趣爱好，记录生活中的美好瞬间。</p>
+            <div class="hero-stats">
+                <div class="stat"><div class="num">22</div><div class="label">年龄</div></div>
+                <div class="stat"><div class="num">3</div><div class="label">年级</div></div>
+                <div class="stat"><div class="num">5+</div><div class="label">爱好</div></div>
+            </div>
+        </div>
+        <div class="hero-avatar-wrap">
+            <img src="avatar.png" alt="头像" class="hero-avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="hero-avatar hero-avatar-placeholder" style="display:none;">雨</div>
+        </div>
+    </section>
+
+    <!-- 中间横幅 -->
+    <section class="banner">
+        <p class="banner-text">行者常至 为者常成~</p>
+    </section>
+
+    <!-- 首页只保留简介 + 最新动态。其他内容已拆到独立页面。 -->
+
+    <!-- 最新动态 -->
+    <section class="updates-section">
+        <h2>最新动态</h2>
+        <div class="updates-grid">
+            <article class="update-card">
+                <div class="date">2026.03.09</div>
+                <div class="title">完成week1作业</div>
+                <p class="desc">经过一周的努力，终于完成了这个个人网站的制作。学到了很多新知识，很有成就感！</p>
+            </article>
+            <article class="update-card">
+                <div class="date">2025.01.15</div>
+                <div class="title">参加社团活动</div>
+                <p class="desc">参加了学校的XX社团活动，认识了很多志同道合的朋友，收获满满。</p>
+            </article>
+            <article class="update-card">
+                <div class="date">2025.01.30</div>
+                <div class="title">学习新技能</div>
+                <p class="desc">最近在学习一项新技能，虽然有些挑战，但过程很有趣，期待有所收获。</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer footer-pink">
+        <div class="footer-inner">
+            <span>© 2025 嘉琳的个人网站，感谢您的访问</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

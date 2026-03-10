@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的相册 - 徐嘉琳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <span class="logo">徐嘉琳</span>
+        <div class="nav-links">
+            <a href="index.html">首页</a>
+            <a href="hobby.html">我的爱好</a>
+            <a href="album.html">我的相册</a>
+            <a href="hometown.html">我的家乡</a>
+            <a href="school.html">我的学校</a>
+            <a href="contact.html">联系我</a>
+        </div>
+    </nav>
+
+    <section class="album-section">
+        <h2 class="page-title">我的相册</h2>
+        <p class="page-subtitle">用镜头记录生活的美好时光</p>
+        <div class="album-filters">
+            <button type="button" class="album-filter active" data-filter="all">全部</button>
+            <button type="button" class="album-filter" data-filter="daily">日常生活</button>
+            <button type="button" class="album-filter" data-filter="travel">旅行足迹</button>
+            <button type="button" class="album-filter" data-filter="food">美食记录</button>
+            <button type="button" class="album-filter" data-filter="friends">朋友聚会</button>
+        </div>
+        <div class="album-grid">
+            <article class="album-card" data-cat="daily"><div class="album-img"></div><h4>校园时光</h4><p>美好的校园生活</p></article>
+            <article class="album-card" data-cat="food"><div class="album-img"></div><h4>亲手制作</h4><p>第一次做的小蛋糕</p></article>
+            <article class="album-card" data-cat="travel"><div class="album-img"></div><h4>春游踏青</h4><p>春天的美好风景</p></article>
+            <article class="album-card" data-cat="travel"><div class="album-img"></div><h4>城市探索</h4><p>发现城市的美丽角落</p></article>
+            <article class="album-card" data-cat="daily"><div class="album-img"></div><h4>创作时光</h4><p>享受绘画的乐趣</p></article>
+            <article class="album-card" data-cat="food"><div class="album-img"></div><h4>家常美食</h4><p>妈妈教我做的菜</p></article>
+            <article class="album-card" data-cat="friends"><div class="album-img"></div><h4>社团活动</h4><p>参加社团的精彩活动</p></article>
+            <article class="album-card" data-cat="daily"><div class="album-img"></div><h4>读书时光</h4><p>沉浸在书的世界里</p></article>
+            <article class="album-card" data-cat="travel"><div class="album-img"></div><h4>自然风光</h4><p>山间的清新空气</p></article>
+        </div>
+    </section>
+
+    <footer class="footer footer-pink">
+        <div class="footer-inner">
+            <span>© 2025 嘉琳的个人网站，感谢您的访问</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
